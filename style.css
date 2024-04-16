@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    margin-top: 2em;
+    
+    background-color:white;
+    margin-bottom: 2em;
+}
+
+.header {
+    width: 100%;
+    min-height: 90px;
+    border-radius: 70px;
+    background-color: #FAFAFA;
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    flex-grow: 1;
+    padding-left: 70px;
+
+}
+
+.tabs {
+    background-color: #FEFEFF;
+    flex-grow: 2;
+    min-height: 60px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tabs a,
+.tab-btns a {
+    text-decoration: none;
+    color: #1F1F1F;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.tab-btns {
+    flex-grow: 1;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.btn {
+    width: 164px;
+    height: 60px;
+    border: 1px solid #BEBEBE;
+    border-radius: 40px;
+    padding: 15px 35px 15px 35px;
+}
+
+.home {
+    margin-top: 80px;
+    width: 100%;
+    min-height: 617px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+    display: flex;
+    border-radius: 5%;
+}
+
+
+.input{
+    width: 80%;
+    height: 60px;
+    position: relative;
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 76%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 40px;
+
+}
+
+button{
+    border: none;
+    outline: none;
+    width: 38%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+}
+.content{
+margin-top: 20;
+padding-left: 5%;
+padding-top: 5%;
+
+
+}
+.content h1{
+    Width:    500px;
+    Height:    200px;
+    Top:    281px;
+    Left:    76px; 
+}
+.flex-container {
+    display: flex;
+   
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+   
+    gap:1em;
+
+  }
+  .flex-container1 {
+    display: flex;
+    flex-direction:column;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+   
+    gap:1em;
+  }
+.e1{
+    width: 218px;
+height: 19px;
+top: 881px;
+left: 611px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: left;
+background: rgb(187, 185, 185);
+}
+
+
+
+.e2{
+    width: 788px;
+height: 60px;
+top: 916px;
+left: 326px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 50px;
+font-weight: 600;
+line-height: 60px;
+text-align: left;
+background: rgb(175, 167, 167);
+}
+.img3{
+    border-radius: 5%;
+}
+.head3{
+   
+        display: flex;
+        min-height: 150px;
+        justify-content: center;
+        align-items: center;
+        font-size: larger;  
+        gap:2em; 
+}
+.head4{
+    margin-top: 5em;
+    margin-left: 2em;
+    margin-right: 5em;
+}
+.f1{
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center; 
+}
+.img4{
+    margin-top: 2.5em;
+    margin-left: 2em;
+}
+.img5{
+    gap: 5em;
+}
+@media only screen and (max-width: 1330px) {
+    .container {
+        width: 100%;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 1em;
+        padding: 2em;
+    }
+
+    .tabs {
+        width: 90%;
+    }
+
+    .tab-btns {
+        gap: 1em;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 650px) {
+    .logo {
+        padding-left: 0;
+    }
+
+    .tabs {
+        flex-direction: column;
+        gap: 1.5em;
+        padding: 1em 0;
+    }
+
+    .tab-btns {
+        flex-direction: column;
+        gap: 1.5em;
+
+    }
+.home{
+    flex-direction: column;
+
+}
+.img1{
+    width:65%;
+}
+.img2{
+    width:100%;
+}
+.m1{
+    flex-direction: column;
+  
+}
+.head3{
+    flex-direction: column;
+}
+.img4{
+    margin-top: 1em;
+}
+}
